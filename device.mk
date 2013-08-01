@@ -29,7 +29,7 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 PRODUCT_PACKAGES := \
-	lights.msm8960
+	lights.mako
 
 PRODUCT_PACKAGES += \
     charger_res_images \
@@ -41,11 +41,6 @@ PRODUCT_PACKAGES += \
         LiveWallpapersPicker \
         VisualizationWallpapers \
         librs_jni
-
-LOCAL_KERNEL := device/lge/mako-kernel/kernel
-
-PRODUCT_COPY_FILES := \
-	$(LOCAL_KERNEL):kernel
 
 PRODUCT_COPY_FILES += \
 	device/lge/mako/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
@@ -133,7 +128,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.opengles.version=196608
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=320
+	ro.sf.lcd_density=300
 
 # Audio Configuration
 # FIXME: Remove persist.audio.handset.mic and persist.audio.fluence.mode
@@ -263,6 +258,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mtp
+
+# This is the mako-specific audio package
+$(call inherit-product, frameworks/base/data/sounds/AudioPackage10.mk)
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, hardware/qcom/msm8960/msm8960.mk)
