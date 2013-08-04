@@ -5,6 +5,9 @@ $(call inherit-product, vendor/mahdi/config/gsm.mk)
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
 
+# Inherit common product files.
+$(call inherit-product, vendor/mahdi/config/common.mk)
+
 # Inherit some common stuff.
 $(call inherit-product, vendor/mahdi/config/common_full_phone.mk)
 
