@@ -469,5 +469,11 @@ service qrngd /system/bin/qrngd -f
     user root
     group root
 
+service userinit /system/xbin/busybox run-parts /system/etc/init.d
+    oneshot
+    class late_start
+    user root
+    group root
+
 # on property:gsm.sim.state=READY
 #    start diag_mdlog
