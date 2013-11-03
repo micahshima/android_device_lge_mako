@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_mako.mk \
-    $(LOCAL_DIR)/mahdi_mako.mk
+    $(LOCAL_DIR)/mahdi.mk
