@@ -120,7 +120,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.opengles.version=196608
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=320
+	ro.sf.lcd_density=300
 
 # Audio Configuration
 # FIXME: Remove persist.audio.handset.mic and persist.audio.fluence.mode
