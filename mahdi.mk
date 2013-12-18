@@ -8,9 +8,6 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 $(call inherit-product, vendor/mahdi/configs/common.mk)
 $(call inherit-product, vendor/mahdi/configs/common_full_phone.mk)
 
-# Inherit GSM files.
-$(call inherit-product, vendor/mahdi/configs/gsm.mk)
-
 # Setup device specific product configuration.
 PRODUCT_DEVICE := mako
 PRODUCT_NAME := mahdi_mako
