@@ -138,9 +138,4 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 HAVE_ADRENO_SOURCE:= false
 
-BOARD_HAVE_LOW_LATENCY_AUDIO := true
-USE_DEVICE_SPECIFIC_CAMERA := true
-
--include vendor/lge/mako/BoardConfigVendor.mk
-
 BOARD_HAS_NO_SELECT_BUTTON := true

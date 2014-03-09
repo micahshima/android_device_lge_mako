@@ -5,16 +5,6 @@
    "branch":      "kk-4.4"
  },
  {
-   "repository":  "android_vendor_qcom",
-   "target_path": "vendor/qcom",
-   "branch":      "kk-4.4"
- },
- {
-   "repository":  "android_vendor_broadcom",
-   "target_path": "vendor/broadcom",
-   "branch":      "kk-4.4"
- },
- {
    "repository":  "android_kernel_lge_mako",
    "target_path": "kernel/lge/mako",
    "branch":      "kk-4.4"
