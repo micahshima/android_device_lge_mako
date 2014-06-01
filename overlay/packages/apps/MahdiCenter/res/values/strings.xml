@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2014 Mahdi-ROM
+ * Copyright (C) 2013 Mahdi-ROM
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,6 +16,5 @@
 -->
 
 <resources>
-    <string name="download_url">http://forum.xda-developers.com/nexus-4/orig-development/rom-mahdi-rom-2-4-t2581007</string>
-    <string name="xda_summary">Visit the Nexus 4 XDA thread</string>
+    <string name="download_url">http://mahdi-rom.androidfilesharing.com/Nexus%204/</string>
 </resources>
